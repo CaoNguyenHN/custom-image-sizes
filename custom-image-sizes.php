@@ -24,8 +24,8 @@ function nevo_custom_image_sizes_settings() {
 
     add_settings_field(
         'enable_custom_image_sizes',
-        'Bật tính năng add_image_size()',
-        'custom_image_sizes_checkbox',
+        'Cắt ảnh chính xác cho Medium size & Large size',
+        'nevo_custom_image_sizes_checkbox',
         'media',
         'custom_image_sizes_section',
         ['label_for' => 'enable_custom_image_sizes']
@@ -34,7 +34,7 @@ function nevo_custom_image_sizes_settings() {
     add_settings_field(
         'disable_default_sizes',
         'Vô hiệu hóa kích thước ảnh mặc định',
-        'custom_image_sizes_checkbox',
+        'nevo_custom_image_sizes_checkbox',
         'media',
         'custom_image_sizes_section',
         ['label_for' => 'disable_default_sizes']
