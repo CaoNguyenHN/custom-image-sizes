@@ -14,7 +14,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Thêm tùy chọn vào Media Settings
-function custom_image_sizes_settings() {
+function nevo_custom_image_sizes_settings() {
     add_settings_section(
         'custom_image_sizes_section',
         'Custom Image Sizes',
