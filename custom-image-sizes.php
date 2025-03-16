@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Custom Image Sizes Manager
- * Description: Thêm hoặc loại bỏ kích thước ảnh tùy chỉnh trong WordPress với tùy chọn bật/tắt trong cài đặt Media.
+ * Description: Add or remove custom image sizes in WordPress with enable/disable option in Media settings.
  * Plugin URI: https://nevothemes.com/
  * Version: 1.0.0
  * Author: NevoThemes
@@ -24,7 +24,7 @@ function nevo_custom_image_sizes_settings() {
 
     add_settings_field(
         'enable_custom_image_sizes',
-        'Cắt ảnh chính xác cho Medium size & Large size',
+        'Precise cropping for Medium sized and Large size',
         'nevo_custom_image_sizes_checkbox',
         'media',
         'custom_image_sizes_section',
@@ -33,7 +33,7 @@ function nevo_custom_image_sizes_settings() {
 
     add_settings_field(
         'disable_default_sizes',
-        'Vô hiệu hóa kích thước ảnh mặc định',
+        'Disable default image size',
         'nevo_custom_image_sizes_checkbox',
         'media',
         'custom_image_sizes_section',
